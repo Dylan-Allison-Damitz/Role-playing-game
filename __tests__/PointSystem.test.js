@@ -3,7 +3,6 @@ import PointSystem from '../src/PointSystem.js';
 describe('PointSystem', () => {
   let vagaBond;
 
-  
   beforeEach(() => {
     vagaBond = new PointSystem(1, 1, 2);
   });

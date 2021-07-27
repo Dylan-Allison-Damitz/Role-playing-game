@@ -1,6 +1,6 @@
 export default class Faction {
   constructor() {
-    this.factionName = factionName;
+    this.factionName = "";
     this.hitPoints = 100;  
     this.strength = 0; 
     this.luck = 0;
@@ -48,5 +48,9 @@ export default class Faction {
     this.stealth = 20;
     this.charisma = 40;
   };
+}
+
+function math() {
+  return Math.floor((Math.random() * 10) + 1);
 }
       
